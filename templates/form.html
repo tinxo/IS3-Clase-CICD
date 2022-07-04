@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora básica</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body align=center>
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4"><legend><h1>Calculadora básica</h1></legend></div>
+        <div class="col-md-4"></div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            <p>Ingrese los valores y seleccione la operación a ejecutar:</p>
+            <br>
+            <form class="form-horizontal" action={{ url_for('result') }}  method="post">
+                <div class="form-group">
+                    <label class="control-label col-xs-3" for="num_1">Valor 1:</label>
+                    <div class="col-xs-7">
+                        <input type="number" class="form-control" name="num_1" placeholder="0">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-xs-3" for="num_2">Valor 2:</label>
+                    <div class="col-xs-7">
+                        <input type="number" class="form-control" name="num_2" placeholder="0">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-xs-3">Seleccionar operación:</label>
+                    <div class="col-xs-5">
+                        <select class="form-control" name="operador">
+                            <option>Suma (+)</option>
+                        </select>
+                    </div>
+                </div>
+                <br><br>
+                <div class="form-group">
+                    <div class="col-xs-offset-3 col-xs-9">
+                        <input type="submit" class="btn btn-success" value="Calcular">
+                        <input type="reset" class="btn btn-danger" value="Limpiar">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-4"></div></div>
+    </div>
+    
+</body>
+
+</html>
