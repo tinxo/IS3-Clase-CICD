@@ -51,4 +51,4 @@ jobs:
         # The branch that you would like to deploy to Heroku
         branch: main
         # Type of heroku process (web, worker, etc). This option only makes sense when usedocker enabled
-        docker_heroku_process_type: web
+        docker_heroku_process_type: web gunicorn --pythonpath src app:app
