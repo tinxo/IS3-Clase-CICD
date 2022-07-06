@@ -17,3 +17,4 @@ TBD
 Algunos recursos:
 * https://blog.wimwauters.com/devops/2021-11-07-flask_github_heroku/
 * https://blog.wimwauters.com/devops/2021-11-03-flask_githubactions_heroku/?utm_source=pocket_mylist
+* https://www.youtube.com/watch?v=WTofttoD2xg&ab_channel=IndianPythonista
