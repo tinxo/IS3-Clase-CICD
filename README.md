@@ -10,7 +10,10 @@ Se trata de una aplicación de cálculo básico implementada en python y que se 
 
 ### Instrucciones
 
-TBD
+Ejecutar
+~~~ bash
+flask run
+~~~
 
 ### Materiales
 
