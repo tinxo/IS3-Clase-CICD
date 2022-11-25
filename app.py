@@ -14,6 +14,7 @@ def form():
 
 @app.route("/result", methods=['POST'])
 def result():
+    # linea de ejemplo para hacer un commit
     # Se tienen que obtener los valores ingresados en el form
     num_1 = request.form.get("num_1", type=int)
     num_2 = request.form.get("num_2", type=int)
