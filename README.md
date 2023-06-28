@@ -2,7 +2,7 @@
 
 ## Ingeniería de Software III (LSI) / Actualidad Informática (ASC) - FCEQyN - UNaM
 
-Repositorio de muestra correspondiente al tema.
+Repositorio de muestra correspondiente al tema. Se prueba en 2023.
 
 ### Descripción general
 
